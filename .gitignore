@@ -26,7 +26,12 @@ bld/
 
 # Visual Studo 2015 cache/options directory
 .vs/
+
+# VS Code
 .vscode/
+
+# Max OSX
+.DS_Store
 
 # MSTest test Results
 [Tt]est[Rr]esult*/
