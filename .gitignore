@@ -28,7 +28,6 @@ bld/
 .vs/
 
 # VS Code
-.vscode/
 
 # Max OSX
 .DS_Store
