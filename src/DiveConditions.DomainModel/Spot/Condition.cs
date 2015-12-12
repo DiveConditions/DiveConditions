@@ -5,12 +5,9 @@ using System.Threading.Tasks;
 
 namespace DiveConditions.DomainModel.Spot
 {
-    public enum Visibility
+    public class Condition
     {
-        Clear,
-        VeryGood,
-        Good,
-        Bad,
-        VeryBad,
+        public DateTime Date { get; set; }
+        public List<DepthCondition> Depths { get; set; }
     }
 }
